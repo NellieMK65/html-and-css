@@ -1,0 +1,29 @@
+#paragraph-one {
+	color: blueviolet;
+}
+
+/* This is some comment */
+.paragraph {
+	color: brown;
+}
+
+/* Compound selectors */
+h1,
+h2,
+h3 {
+	color: cadetblue;
+}
+
+/* Child selector */
+div > p {
+	color: blue;
+}
+
+/* Universal selector */
+* {
+	font-weight: bold;
+}
+
+body {
+	background-color: #f2f2f2;
+}
